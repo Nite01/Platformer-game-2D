@@ -45,7 +45,7 @@ public class PlayerController : MonoBehaviour
             UIManager.Instance.GameOver();
         }
 
-        if (other.gameObject.CompareTag("Finish"))
+        if (other.gameObject.CompareTag("Finish") && UIManager.Instance.score == 90)
         {
             FindAnyObjectByType<AudioManager>().PlaySound("GameOver");
             UIManager.Instance.GameWon();

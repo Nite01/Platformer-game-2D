@@ -12,7 +12,7 @@ public class UIManager : MonoBehaviour
 
     public Text scoreText;
     public Text healthText;
-    private int score;
+    public int score;
 
     private void Awake()
     {
