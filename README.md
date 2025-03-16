@@ -8,4 +8,4 @@ This is a 2D platformer game with a single level designed for fun and engaging g
 - **Collectibles**: Coins scattered across the level for players to gather and boost their score.
 
 ## Objective
-The primary goal is to complete the level by: reaching green point
+The primary goal is to complete the level by: collect all coins and reaching green point
